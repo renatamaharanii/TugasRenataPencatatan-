@@ -55,9 +55,9 @@ namespace csharprenata2
                 txtNIK.Focus();
                 return;
             }
-            if (txtNIK.Text.Length != 10)
+            if (txtNIK.Text.Length != 16)
             {
-                MessageBox.Show("NIK harus terdiri dari 10 karakter.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("NIK harus terdiri dari 16 karakter.", "Validasi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtNIK.Focus();
                 return;
             }
